@@ -22,6 +22,8 @@ public class Main {
 		linesArray = g.getLinesArray();
 		Tokenizer tkz = new Tokenizer(linesArray);
 		tkz.findMinMax();
+		tkz.findVar();
+		System.out.println(""+tkz.existsST());
 		
 	}
 
