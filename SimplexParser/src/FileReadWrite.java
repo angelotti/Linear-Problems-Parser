@@ -2,13 +2,13 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.io.*;
 
-public class FileReader {
+public class FileReadWrite {
 
 	private ArrayList<String> linesArray = new ArrayList<String>();
 	//Path path = Paths.get()
 	Scanner s = null;
 	
-	public FileReader(){}
+	public FileReadWrite(){}
 	
 	public void openFile() {
 		try {
