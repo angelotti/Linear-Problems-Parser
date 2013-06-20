@@ -23,6 +23,7 @@ public class Main {
 		Tokenizer tkz = new Tokenizer(linesArray);
 		tkz.findMinMax();
 		tkz.findVar();
+		tkz.findConstraints();
 		System.out.println(""+tkz.existsST());
 		
 	}
