@@ -1,0 +1,21 @@
+This project consists of a parser which transforms a linear problem from this form
+(LP 1)
+max 540x1+ 205x2+ 175x3+90x4
+s.t. 15x1+ 4x2+ 5x3+ 3x4> 50000
+12x1+ 6x2+ 3x3+ 3x4< 40000
+150x1+ 60x2+ 50x3+ 40x4> 300000
+x1> 150, x2 > 270, x3 > 310, x4 > 450
+
+to 
+
+(LP 2)
+c = [ 540,  205,  175, 90]
+A = [[ 15,  4,  5,  3], [12,  6,  3,  3], [150,  60,  50,  40]]
+b = [50000, 40000, 300000]
+Eqin = [1, -1, 1]
+
+in order to another program to read and solve the problem using a Simplex Algorithm
+
+
+The usage of the parser is simple.
+1)Create a problem.txt file  inside the project folder 
