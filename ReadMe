@@ -19,3 +19,6 @@ in order to another program to read and solve the problem using a Simplex Algori
 
 The usage of the parser is simple.
 1)Create a problem.txt file  inside the project folder 
+2)Import project into Eclipse
+3)Run
+4)A problem(LP-2).txt file will be created with the transformed problem
